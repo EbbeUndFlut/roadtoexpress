@@ -39,6 +39,11 @@ Dafür müssen wir eine extra Zeile in unsere package.json schreiben, sonst beko
 ``npm i ejs``
 - express-validator(damit wir user eingaben validieren können)
 ``npm i express-validator``
+- cors (um die cors header zu konfigurieren)
+ - Wir wollen bestimmen wer einen request zu unseren server senden darf und das machen wir mit unserem cors modul. Dafault (app.use(cors())) erlauben wir request  von überall.
+``npm i cors``
+- multer library zum upload von dateien (eins von vielen formidable)
+``npm i multer``
 
 
 #### only dev
