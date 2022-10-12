@@ -44,6 +44,8 @@ Dafür müssen wir eine extra Zeile in unsere package.json schreiben, sonst beko
 ``npm i cors``
 - multer library zum upload von dateien (eins von vielen formidable)
 ``npm i multer``
+- dotenv um eigene Umgebungsvariabeln zu erstellen (z.B. PORT, API_KEY, MONGO_DB_URL usw. )
+``npm i dotenv``
 
 
 #### only dev
