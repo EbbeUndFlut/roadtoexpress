@@ -37,3 +37,10 @@ transporter.sendMail(message, (err, info) => {
 })
 
 ```
+
+## Wie funktioniert das?
+Die Emails die wir jetzt versenden, werden nicht direkt von unserem Server gesendet. Sie werden vom Transporter zum SMTP Server geleitet und dieser versendet die Emails dann.
+
+Es gibt diverse Mailanbieter die uns einen smtp Port und Adresse zur Verfügung stellen. So das Wir uns mit einem usernamen und einen Passwort anmelden können.
+
+GMAIL ist dort etwas tricky, google will dann das man seinen account für less secure apps entsperrt. Und genau diese Möglichkeit wollten sie am 06.2022 abschaffen
