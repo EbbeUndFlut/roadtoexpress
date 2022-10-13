@@ -46,7 +46,8 @@ Dafür müssen wir eine extra Zeile in unsere package.json schreiben, sonst beko
 ``npm i multer``
 - dotenv um eigene Umgebungsvariabeln zu erstellen (z.B. PORT, API_KEY, MONGO_DB_URL usw. )
 ``npm i dotenv``
-
+- mongodb um mit unserer Datenbank zu kommunizieren
+``npm i mongodb``
 
 #### only dev
 - nodemon (damit wir unseren Server nicht immer neustarten müssen. Das ist nur eine DevDependency)
@@ -62,6 +63,8 @@ Um Nodemon nutzen zu können müssen wir ein extra Script in der package.json an
     "dev": "nodemon index.js", // komma vor und nach der zeile nicht vergessen und dateiname muss passen
 }
 ```
+## Einfacher Weg zum vorkonfigurierten Server
+``npx supercodeserver``
 
 ## Einrichten von Express
 ```javascript
